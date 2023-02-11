@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';font-size: 20px;
+}
+body{
+    background-color: #ffffff;
+}
+
+
+.container{
+    /* max-width: 100%; */
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:2em;
+}
+
+.registrationcontainer{
+
+    /* width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box; */
+    border: 3px solid black;
+    font-weight: 2000;
+    justify-self: center;
+    width:auto;
+    height:auto;
+    padding:1em;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:1em;
+   
+    font-size: 40px;
+    background-color: hsl(184, 72%, 72%);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+    
+    box-shadow: 10px 10px 8px #8cabbb;
+  
+}
+
+.registrationcontainer input{
+    padding:0.5em;
+    outline:none;
+    font-size: 20px;
+    font-family: consolas;
+}
+.submit{
+    margin-bottom: 40px;
+    border-radius: 4px;
+    
+     background-color: #06faa9;
+     /* Green */
+  border: 3px solid rgb(255, 255, 255);
+  /* color: white; */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+button:hover {
+    background-color: #0faf24; /* Green */
+    color: rgb(22, 22, 22);
+  }
+  
+.output{
+    background-color: #08d2ff
+    color: rgb(255, 255, 255);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.5em;
+    justify-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.addData{
+    border: 4px solid rgb(45, 47, 48);
+    text-align: center;
+    width:90%;
+    height:auto;
+    padding:1em;
+    background-color:#99c5ff ;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.output .addData img{
+    width:150px;
+    height:150px;
+    
+}
+
+@media all and (max-width:900px){
+    .output{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:0.5em;
+        justify-items: center;
+        
+    }
+
+}
+@media all and (max-width:400px){
+    .container{
+        padding:0.4em;
+    }
+    .registrationcontainer{
+        padding:0.5em;
+    }
+    .output{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:0.5em;
+        justify-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+h1{
+    color: rgb(20, 19, 19);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+  

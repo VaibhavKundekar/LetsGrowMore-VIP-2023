@@ -1,0 +1,51 @@
+.App {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  position: relative;
+}
+.HeadingDiv{
+  background-image: linear-gradient(to right, rgb(228, 245, 252),rgba(24, 207, 183, 0.842));
+  height:50px;
+}
+
+.AddItem{
+  background-color: rgb(206, 240, 245);
+  
+}
+.AppWidth{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-family: consolas;
+  margin:20px;
+  background-image: linear-gradient(to right, rgb(189, 245, 237),rgb(60, 192, 224));
+}
+li{
+  list-style-type: none;
+}
+.stylelist{
+  background-color:rgb(163, 235, 238);
+  border-left: 4px solid rgb(0, 195, 255);
+  border-top:2px solid white;
+  
+   
+  padding: 10px 10px 10px 10px; 
+}
+button{
+  background-color: white;
+  border:none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: consolas;
+  margin-left: 20px;
+}
+#addbutton{
+  background-color: lightgreen;
+}
+#deletebutton{
+  background-color: lightcoral;
+}
